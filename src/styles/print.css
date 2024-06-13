@@ -1,0 +1,17 @@
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .resume-preview {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .resume-preview header,
+    .resume-preview .resume-section {
+        page-break-inside: avoid;
+    }
+}

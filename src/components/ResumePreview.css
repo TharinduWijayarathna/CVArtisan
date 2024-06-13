@@ -1,0 +1,45 @@
+.resume-preview {
+    font-family: 'Arial', sans-serif;
+    width: 210mm; /* A4 width */
+    min-height: 297mm; /* A4 height */
+    margin: 0 auto;
+    padding: 20mm;
+    box-sizing: border-box;
+    background: white;
+    color: #000;
+  }
+  
+  .resume-preview header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-preview header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .resume-preview header p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .resume-preview .resume-section {
+    margin-bottom: 20px;
+  }
+  
+  .resume-preview .resume-section h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-preview .resume-section p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
